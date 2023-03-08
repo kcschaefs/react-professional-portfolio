@@ -1,0 +1,10 @@
+.App {
+  min-height: 100vh;
+  font-family: Arial; 
+  background-color: #222546;
+  color: rgb(199, 198, 198);
+}
+
+p {
+  font-size: 30px;
+}

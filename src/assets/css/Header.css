@@ -1,0 +1,60 @@
+
+.header {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.headerName {
+  display: flex;
+  flex-direction: column;
+  justify-self:center;
+  align-items: left;
+  justify-items: flex-start;
+}
+
+.headerNav {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  align-content: center;
+  justify-self: flex-end;
+}
+
+#avatar {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.avatar {
+  align-self:center;
+  margin-right: 30px;
+}
+
+#name {
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 2px #008C8F;
+}
+
+#liLogo {
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+
+.linkText {
+  color: white;
+}
+
+#subtitle {
+  margin-top: -15px;
+  color: #00cdd0;
+  text-shadow: 2px 2px 2px #8367d0;
+}
