@@ -1,0 +1,17 @@
+.aboutFlex {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.aboutTitle {
+  display: flex;
+}
+
+.aboutText {
+  display: flex;
+}
+
+.aboutSection {
+  margin: auto;
+}

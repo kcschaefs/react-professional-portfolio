@@ -1,0 +1,27 @@
+.mainCard {
+  width: 90%;
+}
+
+.mainCardText {
+  font-size: 20px;
+}
+
+/* .workFlex {
+  height: 100%
+} */
+
+.portfolioSection {
+  margin: auto;
+  min-height: 800px;
+}
+
+/* .miniCard {
+  width: 45%;
+} */
+
+.miniWorkFlex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+}
