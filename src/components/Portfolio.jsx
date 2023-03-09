@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import '../assets/css/Portfolio.css';
 import Card from 'react-bootstrap/Card';
-
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
@@ -64,7 +63,6 @@ function Portfolio() {
       <div className="aboutTitle">
         <h1>Portfolio</h1>
       </div>
-
       <div>
         <Carousel>
           {folio.map(work => (
@@ -74,7 +72,7 @@ function Portfolio() {
                   src={work.image}
                   alt={work.alt}
                 />
-                <div>
+                <div className="descriptor">
                   <h3>{work.title}</h3>
                   <p>{work.description}</p>
                 </div>
