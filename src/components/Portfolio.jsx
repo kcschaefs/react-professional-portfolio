@@ -1,9 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import '../assets/css/Portfolio.css';
 import Card from 'react-bootstrap/Card';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
+import Badge from 'react-bootstrap/Badge';
 
 
 function Portfolio() {
@@ -15,7 +16,8 @@ function Portfolio() {
       image: './images/study-budd-homepage.png',
       alt: "image of app",
       site: "https://study-bud.herokuapp.com/",
-      github: "https://github.com/EshuShango/study-group-project"
+      github: "https://github.com/EshuShango/study-group-project",
+      tech: ["MD Bootstrap", "SQL", "JavaScript", "Express", "Node", "Axios", "Metered"]
     },
     {
       title: "Weather Dashboard - 5 Day Forecast",
@@ -23,7 +25,8 @@ function Portfolio() {
       image: './images/weather.png',
       alt: "image of app",
       site: "https://kcschaefs.github.io/weather-app/",
-      github: "https://github.com/kcschaefs/note-taker-app"
+      github: "https://github.com/kcschaefs/note-taker-app",
+      tech: ["JavaScript", "Bootstrap", "JSON", "API", "Local Storage"]
     },
     {
       title: "Employee Database Manager",
@@ -31,7 +34,8 @@ function Portfolio() {
       image: './images/ee-database.png',
       alt: "image of app",
       site: "https://drive.google.com/file/d/1aEL40zY5gkbIiVmtxB7QI3tLaBUXLMLX/view",
-      github: "https://github.com/kcschaefs/employee-db-manager"
+      github: "https://github.com/kcschaefs/employee-db-manager",
+      tech: ["JavaScript", "SQL", "Inquirer"]
     },
     {
       title: "Note Taker App",
@@ -39,7 +43,8 @@ function Portfolio() {
       image: './images/note-taker.png',
       alt: "image of app",
       site: "https://drive.google.com/file/d/1aEL40zY5gkbIiVmtxB7QI3tLaBUXLMLX/view",
-      github: "https://github.com/kcschaefs/employee-db-manager"
+      github: "https://github.com/kcschaefs/employee-db-manager",
+      tech: ["JavaScript", "Express", "Heroku"]
     },
     {
       title: "Social Network API",
@@ -47,7 +52,8 @@ function Portfolio() {
       image: './images/social.png',
       alt: "image of app",
       site: "https://drive.google.com/file/d/1_Ogvl1CEl9Rg_WdNgCFPuPuVxHsU3ckF/view",
-      github: "https://github.com/kcschaefs/social-network-api"
+      github: "https://github.com/kcschaefs/social-network-api",
+      tech: ["JavaScript", "Express", "Insomnia", "MongoDB"]
     },
     {
       title: "Ecommerce Backend",
@@ -55,35 +61,43 @@ function Portfolio() {
       image: './images/ecomm.png',
       alt: "image of app",
       site: "https://drive.google.com/file/d/15oFkdJL2QVC5Q6CET3cDwwEOGwxOU5h1/view",
-      github: "https://github.com/kcschaefs/ecomm-backend"
+      github: "https://github.com/kcschaefs/ecomm-backend",
+      tech: ["JavaScript", "Express", "Insomnia", "SQL"]
     }
   ]
 
   return (
     <Container className="portfolioSection">
-      <div className="aboutTitle">
-        <h1>Portfolio</h1>
-      </div>
       <div>
         <Carousel className="pCar">
           {folio.map(work => (
             <Carousel.Item key={work.id}>
+              <div className="moreLinks">
+                <a href={work.site} target="_blank"><button>View App</button></a>
+                <a href={work.github} target="_blank"><button>GitHub Repo</button></a>
+              </div>
               <a href={work.site} target="_blank"><img
                 className="portfolioImages d-block w-50"
                 src={work.image}
                 alt={work.alt}
               /></a>
-
               <div className="descriptor">
-                <h3>{work.title}</h3>
-                <div className="links">
-                  <p>{work.description}</p>
-                  <div className="moreLinks">
-                    <a href={work.site} target="_blank"><button>View App</button></a>
-                    <a href={work.github} target="_blank"><button>GitHub Repo</button></a>
+                <Card className="descriptorCard">
+                  <h3 className="aboutTitle">{work.title}</h3>
+                  <div className="techStack">
+                    {work.tech.map(t => {
+                      return (
+                        <div ><Badge className="tech" bg="light">{t}</Badge></div>
+                      )
+                    })}
                   </div>
-                </div>
+                  <div>
+                    <p className="description">{work.description}</p>
+                  </div>
+                </Card>
+
               </div>
+
             </Carousel.Item>
           ))}
         </Carousel>
