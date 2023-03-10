@@ -5,6 +5,7 @@ function AboutPage() {
     <div>
       <Header />
       <About />
+      <Footer />
     </div>
   )
 }

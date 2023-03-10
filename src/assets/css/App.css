@@ -1,8 +1,10 @@
 .App {
   min-height: 100vh;
+  position: relative;
   font-family: Arial; 
   background-color: #222546;
   color: rgb(199, 198, 198);
+  padding-bottom:60px;
 }
 
 p {
