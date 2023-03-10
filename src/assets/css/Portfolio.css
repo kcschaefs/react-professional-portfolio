@@ -8,10 +8,14 @@
 
 .portfolioSection {
   margin: auto;
-  min-height: 800px;
+  padding-top: 40px;
   min-width: 90%;
+  min-height: 650px;
 }
 
+.pCar {
+  width: 90%;
+}
 
 .miniWorkFlex {
   display: flex;
@@ -36,4 +40,40 @@ img {
 
 h3 {
   font-weight: bold;
+}
+
+.aboutTitle {
+  padding-bottom: 10px;
+
+}
+h1 {
+  font-weight: bold;
+}
+
+.portfolioImages {
+  max-width: 50%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content:space-evenly;
+  margin: auto;
+}
+
+.moreLinks {
+  display: flex;
+  width: 50%;
+  justify-content:space-evenly;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+button {
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+  background-color: #008C8F;
+  color: white;
 }

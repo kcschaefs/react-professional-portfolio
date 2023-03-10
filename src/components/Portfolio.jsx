@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 
+
 function Portfolio() {
 
   const folio = [
@@ -64,18 +65,25 @@ function Portfolio() {
         <h1>Portfolio</h1>
       </div>
       <div>
-        <Carousel>
+        <Carousel className="pCar">
           {folio.map(work => (
             <Carousel.Item key={work.id}>
-                <img
-                  className="testimonialImages d-block w-50"
-                  src={work.image}
-                  alt={work.alt}
-                />
-                <div className="descriptor">
-                  <h3>{work.title}</h3>
+              <a href={work.site} target="_blank"><img
+                className="portfolioImages d-block w-50"
+                src={work.image}
+                alt={work.alt}
+              /></a>
+
+              <div className="descriptor">
+                <h3>{work.title}</h3>
+                <div className="links">
                   <p>{work.description}</p>
+                  <div className="moreLinks">
+                    <a href={work.site} target="_blank"><button>View App</button></a>
+                    <a href={work.github} target="_blank"><button>GitHub Repo</button></a>
+                  </div>
                 </div>
+              </div>
             </Carousel.Item>
           ))}
         </Carousel>

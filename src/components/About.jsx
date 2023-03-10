@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import '../assets/css/About.css'
+import '../assets/css/About.css';
 
 
 function About() {
