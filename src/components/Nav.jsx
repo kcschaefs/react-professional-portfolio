@@ -1,33 +1,30 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import { Link, useLocation } from 'react-router-dom';
 
 function NavigationBar(props) {
+  const location = useLocation();
   return (
-    <Navbar>
-      <Container fluid className="navBar">
-        <div className="header">
+    <Container fluid className="navBar">
+      <div className="header">
+        <Navbar collapseOnSelect expand="lg" variant="dark">
           <div className="headerName">
-            <Navbar.Brand id="name" href="#home">Kristen Schaefer</Navbar.Brand>
-            <h3 id='subtitle'>they/them</h3>
+            <Navbar.Brand as={Link} to="/about"><h1 id="name">Kristen Schaefer</h1></Navbar.Brand>
           </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <div className="headerNav">
-                <Nav.Link href="/about" className={props.page === 'about' ? "text-selected-text" : ''}><h4 className="linkText">About</h4></Nav.Link>
-                <Nav.Link href="/portfolio" className={props.page === 'portfolio' ? "text-selected-text" : ''}><h4 className="linkText">Portfolio</h4></Nav.Link>
-                <Nav.Link href="/resume" className={props.page === 'contact' ? "text-selected-text" : ''}><h4 className="linkText">Resume</h4></Nav.Link>
-                <Nav.Link href="/contact" className={props.page === 'contact' ? "text-selected-text" : ''}><h4 className="linkText">Contact</h4></Nav.Link>
-                <Nav.Link href="https://github.com/kcschaefs" target="_blank"><img src="./images/github-mark-white.png" id="ghLogo"></img></Nav.Link>
-                <Nav.Link href="https://www.linkedin.com/in/kristen-schaefer-dev/" target="_blank"><img src="./images/linkedin-logo.svg" id="liLogo"></img></Nav.Link>
-              </div>
+            <Nav activeKey={location.pathname} className="linkText">
+                <Nav.Link as={Link} to="/about" eventKey="/about" >About</Nav.Link>
+                <Nav.Link as={Link} to="/portfolio" eventKey="/portfolio">Portfolio</Nav.Link>
+                <Nav.Link to="/resume" as={Link} eventKey="/resume">Resume</Nav.Link>
+                <Nav.Link to="/contact" as={Link} eventKey="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </div>
-      </Container>
-    </Navbar>
+        </Navbar>
+      </div>
+    </Container>
+
 
   )
 }
