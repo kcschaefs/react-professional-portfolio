@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Kristen Schaefer Professional Portfolio Using React
 
 [Deployed Site](https://kcschaefs.github.io/pro-portfolio/)
 
