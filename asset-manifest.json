@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/react-professional-portfolio/static/css/main.43caaa26.css",
-    "main.js": "/react-professional-portfolio/static/js/main.b535733d.js",
+    "main.js": "/react-professional-portfolio/static/js/main.c52e1ab6.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-professional-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/study-budd-homepage.png": "/react-professional-portfolio/static/media/study-budd-homepage.50da9f99c0c1ebdeb7ce.png",
+    "static/media/ee-database.png": "/react-professional-portfolio/static/media/ee-database.e7258f0a18ce5726bd36.png",
+    "static/media/weather.png": "/react-professional-portfolio/static/media/weather.dd0f941f2ffcb249a0de.png",
+    "static/media/note-taker.png": "/react-professional-portfolio/static/media/note-taker.22c8ff5dc2542f79bdf4.png",
     "static/media/avatar.png": "/react-professional-portfolio/static/media/avatar.c7a846af0c7658be69f8.png",
+    "static/media/ecomm.png": "/react-professional-portfolio/static/media/ecomm.100343a8827e503baa69.png",
+    "static/media/social.png": "/react-professional-portfolio/static/media/social.1cf03c0301ca83bef8bc.png",
     "static/media/Tech-Resume-Kristen-Schaefer.pdf": "/react-professional-portfolio/static/media/Tech-Resume-Kristen-Schaefer.0b7a9868a2a11f7e8d19.pdf",
     "static/media/linkedin-logo.svg": "/react-professional-portfolio/static/media/linkedin-logo.457c5083cccd5831f83924d6ed6dc83f.svg",
     "index.html": "/react-professional-portfolio/index.html",
     "main.43caaa26.css.map": "/react-professional-portfolio/static/css/main.43caaa26.css.map",
-    "main.b535733d.js.map": "/react-professional-portfolio/static/js/main.b535733d.js.map",
+    "main.c52e1ab6.js.map": "/react-professional-portfolio/static/js/main.c52e1ab6.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-professional-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43caaa26.css",
-    "static/js/main.b535733d.js"
+    "static/js/main.c52e1ab6.js"
   ]
 }
