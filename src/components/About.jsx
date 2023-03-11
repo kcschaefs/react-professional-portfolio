@@ -3,7 +3,8 @@ import '../assets/css/About.css';
 import avatar from '../assets/images/avatar.png';
 import eye from "../assets/images/eye.png";
 import download from '../assets/images/download.png';
-
+import MyResume from '../assets/pdf/Tech-Resume-Kristen-Schaefer.pdf'
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -22,10 +23,10 @@ function About() {
               <p className="text">Pronouns: they/them</p>
             </div>
             <div className="linkFlex">
-            <a href='/portfolio'>
-                <button><img className="downloadIcon" src={eye} />My Portfolio</button></a>
-              <a href='./Tech-Resume-Kristen-Schaefer.pdf' download>
-                <button><img className="downloadIcon" src={download} />My Resume</button></a>
+            <Link to='/portfolio'>
+                <button><img className="downloadIcon" src={eye} alt="icon"/>My Portfolio</button></Link>
+              <a href={MyResume} download>
+                <button><img className="downloadIcon" src={download} alt="icon"/>My Resume</button></a>
             </div>
           </div>
         </div>
