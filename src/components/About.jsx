@@ -1,5 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import '../assets/css/About.css';
+import avatar from '../assets/images/avatar.png';
+import eye from "../assets/images/eye.png";
+import download from '../assets/images/download.png';
 
 
 function About() {
@@ -11,7 +14,7 @@ function About() {
         </div>
         <div className="aboutFlex">
           <div className='avatar'>
-            <img src="./images/avatar.png" id='avatar' alt='avatar' />
+            <img src={avatar} id='avatar' alt='avatar' />
           </div>
           <div className="aboutText">
             <div className="textFlex">
@@ -20,9 +23,9 @@ function About() {
             </div>
             <div className="linkFlex">
             <a href='/portfolio'>
-                <button><img className="downloadIcon" src="./images/eye.png" />My Portfolio</button></a>
+                <button><img className="downloadIcon" src={eye} />My Portfolio</button></a>
               <a href='./Tech-Resume-Kristen-Schaefer.pdf' download>
-                <button><img className="downloadIcon" src="./images/download.png" />My Resume</button></a>
+                <button><img className="downloadIcon" src={download} />My Resume</button></a>
             </div>
           </div>
         </div>

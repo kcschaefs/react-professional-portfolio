@@ -2,6 +2,8 @@ import Container from 'react-bootstrap/Container';
 import '../assets/css/About.css';
 import { useState } from "react";
 import '../assets/css/Contact.css';
+import github from "../assets/images/github-mark-white.png";
+import linkedin from "../assets/images/linkedin-logo.svg";
 
 function Contact() {
 
@@ -71,8 +73,8 @@ function Contact() {
           </form>
         </div>
         <div className="iconFlex">
-          <a href="https://github.com/kcschaefs" target="_blank"><img className="contactGH" src="./images/github-mark-white.png" /></a>
-          <a href="https://www.linkedin.com/in/kristen-schaefer-dev/" target="_blank"><img className="contactLI" src="./images/linkedin-logo.svg" /></a>
+          <a href="https://github.com/kcschaefs" target="_blank"><img className="contactGH" src={github} /></a>
+          <a href="https://www.linkedin.com/in/kristen-schaefer-dev/" target="_blank"><img className="contactLI" src={linkedin} /></a>
         </div>
       </div>
     </Container>
