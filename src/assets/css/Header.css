@@ -19,8 +19,7 @@
   display: flex;
   flex-wrap: wrap;
   color: white;
-  align-content: center;
-  justify-self: flex-end;
+  margin-top: 40px;
 }
 
 #avatar {
@@ -56,11 +55,10 @@
 }
 
 .linkText {
-  color: white;
+  margin-top: 30px;
+  font-size: 30px;;
 }
 
-#subtitle {
-  margin-top: -15px;
-  color: #00cdd0;
-  text-shadow: 2px 2px 2px #8367d0;
+.selected {
+  color: #008C8F
 }
