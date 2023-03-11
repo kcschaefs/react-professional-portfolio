@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 [Deployed Site](https://kcschaefs.github.io/pro-portfolio/)
+
 ![Screenshot](./public/images/portfolio-screenshot.png)
 
 ## User Story
