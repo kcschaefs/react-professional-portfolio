@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-professional-portfolio/static/css/main.43caaa26.css",
+    "main.css": "/react-professional-portfolio/static/css/main.68b430b7.css",
     "main.js": "/react-professional-portfolio/static/js/main.c52e1ab6.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-professional-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/study-budd-homepage.png": "/react-professional-portfolio/static/media/study-budd-homepage.50da9f99c0c1ebdeb7ce.png",
@@ -13,12 +13,12 @@
     "static/media/Tech-Resume-Kristen-Schaefer.pdf": "/react-professional-portfolio/static/media/Tech-Resume-Kristen-Schaefer.0b7a9868a2a11f7e8d19.pdf",
     "static/media/linkedin-logo.svg": "/react-professional-portfolio/static/media/linkedin-logo.457c5083cccd5831f83924d6ed6dc83f.svg",
     "index.html": "/react-professional-portfolio/index.html",
-    "main.43caaa26.css.map": "/react-professional-portfolio/static/css/main.43caaa26.css.map",
+    "main.68b430b7.css.map": "/react-professional-portfolio/static/css/main.68b430b7.css.map",
     "main.c52e1ab6.js.map": "/react-professional-portfolio/static/js/main.c52e1ab6.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-professional-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43caaa26.css",
+    "static/css/main.68b430b7.css",
     "static/js/main.c52e1ab6.js"
   ]
 }
