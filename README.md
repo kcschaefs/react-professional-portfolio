@@ -2,7 +2,7 @@
 
 [Deployed Site](https://kcschaefs.github.io/pro-portfolio/)
 
-![Screenshot](./public/images/portfolio-screenshot.png)
+![Screenshot](./src/assets/images/portfolio-screenshot.png)
 
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications
