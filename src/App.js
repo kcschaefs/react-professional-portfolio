@@ -1,13 +1,13 @@
 import './assets/css/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { AboutPage, ContactPage, PortfolioPage, ResumePage } from './pages'
-import { BrowserRouter, Navigate, Routes, Route } from 'react-router-dom';
+import { HashRouter, Navigate, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/about' element={<><AboutPage /></>} />
         <Route path='/portfolio' element={<><PortfolioPage /></>} />
@@ -15,7 +15,7 @@ function App() {
         <Route path='/contact' element={<ContactPage />} />
         <Route path="*" element={<Navigate to="/about" replace />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 }
