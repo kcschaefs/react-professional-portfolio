@@ -18,8 +18,8 @@ function About() {
           </div>
           <div className="aboutText">
             <div className="textFlex">
-              <p className="text">Pronouns: they/them</p>
               <p className="text">Web Developer based in Minneapolis with over 10 years of business experience. I enjoy working in a collaborative and flexibile environment that focuses on quality + effectiveness and creating functional user experiences.</p>
+              <p className="text">Pronouns: they/them</p>
             </div>
             <div className="linkFlex">
             <a href='/portfolio'>
