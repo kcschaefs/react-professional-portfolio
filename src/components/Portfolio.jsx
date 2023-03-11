@@ -85,7 +85,7 @@ function Portfolio() {
                   <div className="techStack">
                     {work.tech.map(t => {
                       return (
-                        <div ><Badge className="tech" bg="light">{t}</Badge></div>
+                        <div key={t}><Badge className="tech" bg="light">{t}</Badge></div>
                       )
                     })}
                   </div>

@@ -14,7 +14,7 @@ function NavigationBar(props) {
           </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav activeKey={location.pathname} className="linkText">
+            <Nav activeKey={location.pathname} className="linkText" defaultActiveKey="/about">
                 <Nav.Link as={Link} to="/about" eventKey="/about" >About</Nav.Link>
                 <Nav.Link as={Link} to="/portfolio" eventKey="/portfolio">Portfolio</Nav.Link>
                 <Nav.Link to="/resume" as={Link} eventKey="/resume">Resume</Nav.Link>
