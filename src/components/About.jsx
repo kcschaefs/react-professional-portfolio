@@ -14,11 +14,19 @@ function About() {
             <img src="./images/avatar.png" id='avatar' alt='avatar' />
           </div>
           <div className="aboutText">
-            <p className="text">Web Developer based in Minneapolis with over 10 years of business experience. I enjoy working in a collaborative and flexibile environment that focuses on quality + effectiveness and creating functional user experiences.</p>
+            <div className="textFlex">
+              <p className="text">Web Developer based in Minneapolis with over 10 years of business experience. I enjoy working in a collaborative and flexibile environment that focuses on quality + effectiveness and creating functional user experiences.</p>
+            </div>
+            <div className="linkFlex">
+            <a href='/portfolio'>
+                <button><img className="downloadIcon" src="./images/eye.png" />My Portfolio</button></a>
+              <a href='./Tech-Resume-Kristen-Schaefer.pdf' download>
+                <button><img className="downloadIcon" src="./images/download.png" />My Resume</button></a>
+            </div>
           </div>
         </div>
       </div>
-    </Container>
+    </Container >
   );
 }
 

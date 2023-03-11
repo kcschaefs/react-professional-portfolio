@@ -13,10 +13,11 @@ h1 {
 
 .aboutText {
   display: flex;
+  flex-direction: column;
 }
 
 .text {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .aboutSection {
@@ -32,4 +33,8 @@ h1 {
   height: 300px;
   width: 300px;
   margin-right: 50px;
+}
+
+button {
+  margin: 30px;
 }

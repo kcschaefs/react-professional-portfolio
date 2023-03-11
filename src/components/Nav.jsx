@@ -18,8 +18,9 @@ function NavigationBar(props) {
               <div className="headerNav">
                 <Nav.Link href="/about" className={props.page === 'about' ? "text-selected-text" : ''}><h4 className="linkText">About</h4></Nav.Link>
                 <Nav.Link href="/portfolio" className={props.page === 'portfolio' ? "text-selected-text" : ''}><h4 className="linkText">Portfolio</h4></Nav.Link>
-                <Nav.Link href="/contact" className={props.page === 'contact' ? "text-selected-text" : ''}><h4 className="linkText">Contact</h4></Nav.Link>
                 <Nav.Link href="/resume" className={props.page === 'contact' ? "text-selected-text" : ''}><h4 className="linkText">Resume</h4></Nav.Link>
+                <Nav.Link href="/contact" className={props.page === 'contact' ? "text-selected-text" : ''}><h4 className="linkText">Contact</h4></Nav.Link>
+                <Nav.Link href="https://github.com/kcschaefs" target="_blank"><img src="./images/github-mark-white.png" id="ghLogo"></img></Nav.Link>
                 <Nav.Link href="https://www.linkedin.com/in/kristen-schaefer-dev/" target="_blank"><img src="./images/linkedin-logo.svg" id="liLogo"></img></Nav.Link>
               </div>
             </Nav>
