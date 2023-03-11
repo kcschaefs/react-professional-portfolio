@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import '../assets/css/About.css'
-import MyResume from './Tech-Resume-Kristen-Schaefer.pdf'
+import MyResume from '../assets/pdf/Tech-Resume-Kristen-Schaefer.pdf'
 import SinglePagePDFViewer from "./pdf/single-page";
 import '../assets/css/Resume.css';
 
