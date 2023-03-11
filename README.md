@@ -1,6 +1,6 @@
 # Kristen Schaefer Professional Portfolio Using React
 
-[Deployed Site](https://kcschaefs.github.io/pro-portfolio/)
+[Deployed Site](https://kcschaefs.github.io/react-professional-portfolio/)
 
 ![Screenshot](./src/assets/images/portfolio-screenshot.png)
 
