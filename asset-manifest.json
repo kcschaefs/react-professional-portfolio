@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-professional-portfolio/static/css/main.43caaa26.css",
+    "main.js": "/react-professional-portfolio/static/js/main.5e24802c.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-professional-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Tech-Resume-Kristen-Schaefer.pdf": "/react-professional-portfolio/static/media/Tech-Resume-Kristen-Schaefer.0b7a9868a2a11f7e8d19.pdf",
+    "index.html": "/react-professional-portfolio/index.html",
+    "main.43caaa26.css.map": "/react-professional-portfolio/static/css/main.43caaa26.css.map",
+    "main.5e24802c.js.map": "/react-professional-portfolio/static/js/main.5e24802c.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-professional-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43caaa26.css",
+    "static/js/main.5e24802c.js"
+  ]
+}
